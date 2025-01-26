@@ -1,4 +1,23 @@
-# Hi, I'm Himanshu Sagar
+# Hi, I'm `<span class="typewriter">Himanshu Sagar</span>`
+
+<style>
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: typing 2s steps(20, end), blink 0.5s step-end infinite;
+}
+</style>
 
 Welcome to my README! Here's a little bit about me:
 
